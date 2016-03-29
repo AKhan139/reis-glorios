@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title rendition="#uppercase" type="work">Reis Glorios</title>
+            <title type="common">Chansonnier la Vallière</title>
+            <title type="common">Chansonnier provençal</title>
+            <title type="common">Manuscript R</title>
+            <title type="common">Marshall and Abdur</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>La table des poésies de troubadours contenues dans ce manuscript, qui provient des
+               d'Urfé, a été publiée par M. Paul Meyer dans la Bibliothèque de l'École des Chartes
+               (1871), t. XXXI, p. 412-458.Ms. I de M. P. Meyer ; ms. R de Karl Bartsch ; cf. aussi
+               le Catalogue des livres de la bibliothèque de La Vallière, 1re partie, t. II, p.
+               152-158, n° 2701. </p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France, Département des
+                     manuscrits</repository>
+                  <idno>Fr 22543</idno>
+                  <msName>Manuscript R</msName>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="Oc">The primary language in this manuscript is
+                     Occitan</textLang>
+                  <msItem>
+                     <locus from="1v" to="1v">Iv - Iv</locus>
+                     <title type="work">Bibliographic Information</title>
+                     <note type="contents">Red stamp on top right of page; red circle outline with
+                        circular text surrounding an eagle; all red. Most likely for BnF. No. 2701
+                        Lauall. No. 14 </note>
+                  </msItem>
+                  <msItem>
+                     <locus from="1v" to="1v">Iv - Iv</locus>
+                     <title type="work">Missing Pages</title>
+                     <note type="contents">Volume de 148 Feuillets, Solus les Feuillets
+                        préliminaires A.B.C.; Moins le Feuilles 84 - 30 Août 1870 </note>
+                  </msItem>
+                  <msItem>
+                     <locus from="11r" to="11r">IIr - IIr</locus>
+                     <title type="work">Bibliographic Information</title>
+                     <note type="contents"> Wormholes, Library Seal. Significant scribbles. 1) in
+                        shape of an S 2) two concentric circles. Water damage to right corners.
+                        “Bornelh” written in bottom left margin </note>
+                  </msItem>
+                  <msItem>
+                     <locus from="Ar" to="Ar">Ar - Ar</locus>
+                     <title type="work">Bibliographic Information</title>
+                     <note type="contents"> Wormholes, Library Seal. Ink Stains</note>
+                  </msItem>
+                  <msItem>
+                     <locus from="Br" to="Br">Br - Br</locus>
+                     <title type="work">Manuscript Condition</title>
+                     <note type="contents"> Many small ink blotches/darker patches, where small
+                        corrections or accentuations appear to have been made. Continues on verso
+                        side and beyond </note>
+                  </msItem>
+                  <msItem>
+                     <locus from="4r" to="4r">4r - 4r</locus>
+                     <title type="work">Page Description</title>
+                     <note type="contents">Lack of writing on right side of page. Calligraphy
+                        changes here from previous part of manuscript, ¼ way down page: becomes
+                        smaller and tighter as well as more compact. Verso side of folio has no
+                        writing at all. Serves as a separation between bibliographic information and
+                        foreword and the poems and works of troubadours. </note>
+                  </msItem>
+                  <msItem>
+                     <locus from="4v" to="4v">4v - 4v</locus>
+                     <title type="work">Manuscript Description</title>
+                     <note type="contents">Looks as if the folio is made up of separate leafs/pieces
+                        of parchment glued together to make a proper sheet; Significant damage.
+                        Folio laid on paper pulp to form a full sheet. Every initial historiated.
+                     </note>
+                  </msItem>
+                  <msItem>
+                     <locus from="8v" to="8v">8v - 8v</locus>
+                     <title type="work">Damage Description</title>
+                     <note type="contents">Minor staining/darkening of page itself. Bottom left of
+                        page missing in a clean, crescent fashion: this is the neck of cow: visible
+                        veins. Lower quality parchment It appears that there is color from the
+                        previous page’s initials that bled through the page. Appears almost
+                        exclusively in the margins. </note>
+                  </msItem>
+                  <msItem>
+                     <locus from="8v" to="8v">8v - 8v</locus>
+                     <title type="work">Non Textual Elements</title>
+                     <note type="contents">A number “50” is sloppily written in the dextral margin
+                        and it appears to have come at a much later date. The number 51 is written
+                        in the margin next to the following song/poem. The numbers are written
+                        sequentially by every initial in the manuscript, « Reis glorios » having the
+                        50th initial in the codex, and this also indicates the number of the poem
+                        that the initial starts </note>
+                  </msItem>
+                  <msItem>
+                     <title>Reis Glorios</title>
+                     <filiation>
+                        <p>"Reis Glorios" is presented in Manuscript R, Chanson la Vallière, in the
+                           order outlined in the text body, such that the coblas are organized 1, 2,
+                           3, 4, 5, 6, 7. Some antigraphs present the order of the coblas as 1, 2,
+                           3, 5, 4, 6, 7 when compared to the order in Manuscript R.</p>
+                     </filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="parchment">
+                        <support>
+                           <p><material>Parchment</material>. Lower quality parchment, flesh and
+                              hair sides clearly distinguishable; recto is hair side and verso is
+                              flesh side.</p>
+                        </support>
+                        <extent>Foliation: iiABC+148 <dimensions type="leaves">
+                              <height unit="mm">430</height>
+                              <width unit="mm">305</width>
+                           </dimensions>
+                        </extent>
+                        <foliation>Original foliation to manuscript denoting folios in top right of
+                           page of each recto folio; modern pencil foliation denoting poems in
+                           margins next to each poem.</foliation>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"> 2 columns throughout manuscript, except when divided
+                           into 4, 5, and sometimes 6 columns starting on folio 114r. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Gothic handwriting by one hand, except on folio 4r, when hand becomes
+                        much smaller and compact. Reverts back to normal after that. </handNote>
+                  </handDesc>
+                  <musicNotation>
+                     <p>Square notation on 4-line staff for the first cobla of certain poems,
+                        including "Reis Glorios".</p>
+                  </musicNotation>
+                  <decoDesc>
+                     <decoNote type="marginalia"> Flower and sword motif on the initial of "Reis
+                        Glorios"; no other historiation is present. In the next poem, there is an
+                        initial with a heron with a flower in its mouth emerging from the top. The
+                        heron is atop a historiated initial, a rectangular box with a figure that
+                        has a red cap and red shirt. Below the initial is a yellow figure with black
+                        eyes and tongue sticking out.</decoNote>
+                     <decoNote type="marginalia">Hand in the margin pointing out a line at the top
+                        of the second column on folio 8v, top right of folio.</decoNote>
+                     <decoNote type="rubrication">G• de Bornelh in red; author names at the end of
+                        lines rather than the beginning, written in red. "B" in "bel companho"
+                        rubricated at the beginning of each cobla; there is also some blue
+                        associated.</decoNote>
+                     <decoNote type="initial">Large letter R that is the initial to "Reis Glorios as
+                        the poem begins. The R is in blue with many flowers draw on it and one in
+                        it. The left top has a small hat-like figure attached to it, with small
+                        red/orange "balls" on the ends of the hat. The left stem is very long and
+                        stylized. Three-pointed tip drawn onto the stem, possibly meant to look like
+                        a flower as well.</decoNote>
+                  </decoDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p>Red <material>leather</material> with gilt edges, heavily worn and
+                           scratched</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin notBefore="1301" notAfter="1400"/>
+                  <provenance>Probably created in Vallière</provenance>
+                  <provenance>Bibliothèque de l'École de Chartres, 1871</provenance>
+                  <acquisition>BnF through Paul Meyer</acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <notatedMusic>
+            <desc>The opening cobla of Reis Glorios is presented in the manuscript by three lines of
+               music and one half line. The music consists of a four-line staff with square notes
+               and the key undisclosed, with the words underneath the notes. Some of the notes are
+               whole notes, with one note corresponding to one syllable. At other times, a syllable
+               has three to a maximum of five corresponding notes (read uenguda). The stem on the
+               square notes extends downwards, and the squares will touch if there are more than one
+               note corresponding to one syllable. An ornamental marginalia in the form of a
+               stemless P (missing the second leg of an R), and extends vertically nearly the exact
+               length of the four lines of song. The music reintegrates with the text without a
+               closing bar to the lines of music, but the 2nd cobla commences with a large,
+               rubricated B leading into Bel Companho.</desc>
+         </notatedMusic>
+         <figure>
+            <graphic url="../images/music.jpg"/>
+         </figure>
+         <lg n="1" rhyme="aabbc">
+            <l n="1">Rei glorios<choice>
+                  <orig>uray</orig>
+                  <reg>vray</reg>
+               </choice> lums e clartatz.</l>
+            <l n="2">Totz poderos<lb/>senher si <choice>
+                  <orig>auos</orig>
+                  <reg>a vos</reg>
+               </choice> platz.</l>
+            <l n="3">Al mieu compaynh sias fizels ai<lb/> da.</l>
+            <l n="4">Quieu non lo ui pus la nucch fo uenguda.</l>
+            <l n="5"><phr>Et<lb/> ades sera lalba</phr></l>
+         </lg>
+         <lg n="2" rhyme="aabbc">
+            <l n="6"><phr><w>B</w>el co<ex xml:id="exp01">n</ex>panho</phr> si dormetz o <choice>
+                  <orig>uelhatz</orig>
+                  <reg>velhatz</reg>
+               </choice>.</l>
+            <l n="7">No<ex xml:id="exp02">n</ex> dor<lb/>mas pus. Senher <choice>
+                  <orig>flauos</orig>
+                  <reg>flavos</reg>
+               </choice> platz</l>
+            <l n="8">Q<ex xml:id="exp03">ue</ex>n aurien <choice>
+                  <orig>uey</orig>
+                  <reg>vey</reg>
+               </choice><lb/>lestrela creguda</l>
+            <l n="9">Caduç lo iorn, qu’eu lay be<ex xml:id="exp04">n</ex> co<lb/>noguda.</l>
+            <l n="10"><phr><choice>
+                     <abbr><ex xml:id="exp05">et</ex> ades.</abbr>
+                     <expan>et ades sera lalba</expan>
+                  </choice></phr></l>
+         </lg>
+         <lg n="3" rhyme="ddeec">
+            <l n="11"><phr><w>B</w>el co<ex xml:id="exp06">n</ex>panho</phr>, e<ex xml:id="exp07"
+                  >n</ex> cha<ex xml:id="exp08">n</ex>ta<ex xml:id="exp09">n</ex>
+               <choice>
+                  <orig>uos</orig>
+                  <reg>vos</reg>
+               </choice> apel.</l>
+            <l n="12">No<ex xml:id="exp10">n</ex> durmas<lb/>pus qu’eu aug chantar lauzel.</l>
+            <l n="13">Q<ex xml:id="exp11">u’</ex>eu <choice>
+                  <orig>uay</orig>
+                  <reg>vay</reg>
+               </choice> q<ex xml:id="exp12">u</ex>ie<ex xml:id="exp13">n</ex> lo ior<ex
+                  xml:id="exp14">n</ex> p<ex xml:id="exp15">er</ex> lo boscatie</l>
+            <l n="14"><ex xml:id="exp16">et</ex>
+               <lb/>ay paor, q<ex xml:id="exp17">ue</ex>l gilos <choice>
+                  <orig>uos</orig>
+                  <reg>vos</reg>
+               </choice> assatie.</l>
+            <l n="15"><phr><choice>
+                     <abbr><ex xml:id="exp18">et</ex> ades.</abbr>
+                     <expan>et ades sera lalba</expan>
+                  </choice></phr></l>
+         </lg>
+         <lg n="4" rhyme="ffgg">
+            <l n="16"><phr><w>B</w>el co<ex xml:id="exp19">n</ex>panho</phr>, pos mi par<lb/>ti de <choice>
+                  <orig>uos</orig>
+                  <reg>vos</reg>
+               </choice>,</l>
+            <l n="17">Yeu no<ex xml:id="exp20">n</ex> durmi nim muoc de ginolhos.</l>
+            <l n="18">Ans pregieu di<lb/>eu lo filh Santa Maria,</l>
+            <l n="19">Queus mi re<ex xml:id="exp21">n</ex>des p<ex xml:id="exp22">er</ex> lial co<ex
+                  xml:id="exp23">n</ex>panhia</l>
+            <l n="20"><gap quantity="2" unit="words" reason="omitted"/></l>
+         </lg>
+         <lg n="5" rhyme="ddeec">
+            <l n="21"><phr><w>B</w>el companho</phr>, issetz al fenestrel,</l>
+            <l n="22"><ex xml:id="exp25">et</ex> esgardatz las e<ex xml:id="exp26">n</ex>senhas del
+               cel.</l>
+            <l n="23">co<lb/>noysiret sien soy fizel messatie.</l>
+            <l n="24">Si no<ex xml:id="exp27">n</ex> o faytz <choice>
+                  <orig>uostres</orig>
+                  <reg>vostres</reg>
+               </choice> er lo da<ex xml:id="exp28">n</ex>p<lb/>natie</l>
+            <l n="25"><phr><choice>
+                     <abbr><ex xml:id="exp29">et</ex> ades</abbr>
+                     <expan>et ades sera lalba</expan>
+                  </choice></phr></l>
+         </lg>
+         <lg n="6" rhyme="ffggc">
+            <l n="26"><phr><w>B</w>el companho</phr> la foras al pero.</l>
+            <l n="27">Me <choice>
+                  <orig>preiauatz</orig>
+                  <reg>preiavatz</reg>
+               </choice><lb/>q<ex xml:id="exp30">ue</ex>eu <add place="above">no</add> fos
+               dormilhos.</l>
+            <l n="28">Enans <choice>
+                  <orig>uelhes</orig>
+                  <reg>velhes</reg>
+               </choice> tota nueg tro ad dia.</l>
+            <l n="29">Aras<lb/>nous platz mos chans ni ma paria.</l>
+            <l n="30"><phr><choice>
+                     <abbr>Et ades</abbr>
+                     <expan>Et ades sera lalba</expan>
+                  </choice></phr></l>
+         </lg>
+         <lg n="7" rhyme="hhiic">
+            <l n="31"><phr><w>B</w>el dos co<ex xml:id="exp31">n</ex>panh</phr>
+               <lb/>ta<ex xml:id="exp32">n</ex> soy e<ex xml:id="exp33">n</ex> ric sojorn.</l>
+            <l n="32">Q<ex xml:id="exp34">ue</ex>eu no <choice>
+                  <orig>uolgra</orig>
+                  <reg>volgra</reg>
+               </choice> mays fos alba ni jorn.</l>
+            <l n="33">Car<lb/>la genfenser q<ex xml:id="exp35">ue</ex>eu anc nasq<ex xml:id="exp36"
+                  >ue</ex>s <surplus>nas</surplus> de mayre.</l>
+            <l n="34">te<ex xml:id="exp37">n</ex>c et abras. P<ex xml:id="exp38">er</ex> q<ex
+                  xml:id="exp39">ue</ex>eu no<ex xml:id="exp40">n</ex> pre<lb/>zi gaire.</l>
+            <l n="35">Lo fol gilos ni <phr>lalba</phr>. <w>G de bornelh</w></l>
+
+         </lg>
+      </body>
+   </text>
+</TEI>
